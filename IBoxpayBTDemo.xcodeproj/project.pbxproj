@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BDFCE117C6F31800D28785 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BDFCE017C6F31800D28785 /* UIKit.framework */; };
+		04BDFCE317C6F31800D28785 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BDFCE217C6F31800D28785 /* Foundation.framework */; };
+		04BDFCE517C6F31800D28785 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BDFCE417C6F31800D28785 /* CoreGraphics.framework */; };
+		04BDFCEB17C6F31800D28785 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04BDFCE917C6F31800D28785 /* InfoPlist.strings */; };
+		04BDFCED17C6F31800D28785 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDFCEC17C6F31800D28785 /* main.m */; };
+		04BDFCF117C6F31800D28785 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDFCF017C6F31800D28785 /* AppDelegate.m */; };
+		04BDFCF317C6F31800D28785 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BDFCF217C6F31800D28785 /* Default.png */; };
+		04BDFCF517C6F31800D28785 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BDFCF417C6F31800D28785 /* Default@2x.png */; };
+		04BDFCF717C6F31800D28785 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04BDFCF617C6F31800D28785 /* Default-568h@2x.png */; };
+		04BDFCFA17C6F31800D28785 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDFCF917C6F31800D28785 /* ViewController.m */; };
+		04BDFCFD17C6F31800D28785 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04BDFCFB17C6F31800D28785 /* ViewController.xib */; };
+		04BDFD0417C6F33900D28785 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BDFD0317C6F33900D28785 /* CoreBluetooth.framework */; };
+		04BDFD0717C6F3D200D28785 /* IBoxpayBTUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BDFD0617C6F3D200D28785 /* IBoxpayBTUtil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04BDFCDD17C6F31800D28785 /* IBoxpayBTDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IBoxpayBTDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04BDFCE017C6F31800D28785 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		04BDFCE217C6F31800D28785 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		04BDFCE417C6F31800D28785 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		04BDFCE817C6F31800D28785 /* IBoxpayBTDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IBoxpayBTDemo-Info.plist"; sourceTree = "<group>"; };
+		04BDFCEA17C6F31800D28785 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		04BDFCEC17C6F31800D28785 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04BDFCEE17C6F31800D28785 /* IBoxpayBTDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IBoxpayBTDemo-Prefix.pch"; sourceTree = "<group>"; };
+		04BDFCEF17C6F31800D28785 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04BDFCF017C6F31800D28785 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04BDFCF217C6F31800D28785 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		04BDFCF417C6F31800D28785 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		04BDFCF617C6F31800D28785 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		04BDFCF817C6F31800D28785 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04BDFCF917C6F31800D28785 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04BDFCFC17C6F31800D28785 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		04BDFD0317C6F33900D28785 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		04BDFD0517C6F3D200D28785 /* IBoxpayBTUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IBoxpayBTUtil.h; sourceTree = "<group>"; };
+		04BDFD0617C6F3D200D28785 /* IBoxpayBTUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IBoxpayBTUtil.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04BDFCDA17C6F31800D28785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BDFD0417C6F33900D28785 /* CoreBluetooth.framework in Frameworks */,
+				04BDFCE117C6F31800D28785 /* UIKit.framework in Frameworks */,
+				04BDFCE317C6F31800D28785 /* Foundation.framework in Frameworks */,
+				04BDFCE517C6F31800D28785 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04BDFCD417C6F31800D28785 = {
+			isa = PBXGroup;
+			children = (
+				04BDFCE617C6F31800D28785 /* IBoxpayBTDemo */,
+				04BDFCDF17C6F31800D28785 /* Frameworks */,
+				04BDFCDE17C6F31800D28785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04BDFCDE17C6F31800D28785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04BDFCDD17C6F31800D28785 /* IBoxpayBTDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04BDFCDF17C6F31800D28785 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04BDFD0317C6F33900D28785 /* CoreBluetooth.framework */,
+				04BDFCE017C6F31800D28785 /* UIKit.framework */,
+				04BDFCE217C6F31800D28785 /* Foundation.framework */,
+				04BDFCE417C6F31800D28785 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04BDFCE617C6F31800D28785 /* IBoxpayBTDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04BDFD0817C6F98300D28785 /* utils */,
+				04BDFCEF17C6F31800D28785 /* AppDelegate.h */,
+				04BDFCF017C6F31800D28785 /* AppDelegate.m */,
+				04BDFCF817C6F31800D28785 /* ViewController.h */,
+				04BDFCF917C6F31800D28785 /* ViewController.m */,
+				04BDFCFB17C6F31800D28785 /* ViewController.xib */,
+				04BDFCE717C6F31800D28785 /* Supporting Files */,
+			);
+			path = IBoxpayBTDemo;
+			sourceTree = "<group>";
+		};
+		04BDFCE717C6F31800D28785 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04BDFCE817C6F31800D28785 /* IBoxpayBTDemo-Info.plist */,
+				04BDFCE917C6F31800D28785 /* InfoPlist.strings */,
+				04BDFCEC17C6F31800D28785 /* main.m */,
+				04BDFCEE17C6F31800D28785 /* IBoxpayBTDemo-Prefix.pch */,
+				04BDFCF217C6F31800D28785 /* Default.png */,
+				04BDFCF417C6F31800D28785 /* Default@2x.png */,
+				04BDFCF617C6F31800D28785 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04BDFD0817C6F98300D28785 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				04BDFD0517C6F3D200D28785 /* IBoxpayBTUtil.h */,
+				04BDFD0617C6F3D200D28785 /* IBoxpayBTUtil.m */,
+			);
+			name = utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04BDFCDC17C6F31800D28785 /* IBoxpayBTDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04BDFD0017C6F31800D28785 /* Build configuration list for PBXNativeTarget "IBoxpayBTDemo" */;
+			buildPhases = (
+				04BDFCD917C6F31800D28785 /* Sources */,
+				04BDFCDA17C6F31800D28785 /* Frameworks */,
+				04BDFCDB17C6F31800D28785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IBoxpayBTDemo;
+			productName = IBoxpayBTDemo;
+			productReference = 04BDFCDD17C6F31800D28785 /* IBoxpayBTDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04BDFCD517C6F31800D28785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "朱克锋";
+			};
+			buildConfigurationList = 04BDFCD817C6F31800D28785 /* Build configuration list for PBXProject "IBoxpayBTDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04BDFCD417C6F31800D28785;
+			productRefGroup = 04BDFCDE17C6F31800D28785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04BDFCDC17C6F31800D28785 /* IBoxpayBTDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04BDFCDB17C6F31800D28785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BDFCEB17C6F31800D28785 /* InfoPlist.strings in Resources */,
+				04BDFCF317C6F31800D28785 /* Default.png in Resources */,
+				04BDFCF517C6F31800D28785 /* Default@2x.png in Resources */,
+				04BDFCF717C6F31800D28785 /* Default-568h@2x.png in Resources */,
+				04BDFCFD17C6F31800D28785 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04BDFCD917C6F31800D28785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BDFCED17C6F31800D28785 /* main.m in Sources */,
+				04BDFCF117C6F31800D28785 /* AppDelegate.m in Sources */,
+				04BDFCFA17C6F31800D28785 /* ViewController.m in Sources */,
+				04BDFD0717C6F3D200D28785 /* IBoxpayBTUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04BDFCE917C6F31800D28785 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BDFCEA17C6F31800D28785 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		04BDFCFB17C6F31800D28785 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04BDFCFC17C6F31800D28785 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04BDFCFE17C6F31800D28785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04BDFCFF17C6F31800D28785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04BDFD0117C6F31800D28785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IBoxpayBTDemo/IBoxpayBTDemo-Prefix.pch";
+				INFOPLIST_FILE = "IBoxpayBTDemo/IBoxpayBTDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		04BDFD0217C6F31800D28785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IBoxpayBTDemo/IBoxpayBTDemo-Prefix.pch";
+				INFOPLIST_FILE = "IBoxpayBTDemo/IBoxpayBTDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04BDFCD817C6F31800D28785 /* Build configuration list for PBXProject "IBoxpayBTDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BDFCFE17C6F31800D28785 /* Debug */,
+				04BDFCFF17C6F31800D28785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04BDFD0017C6F31800D28785 /* Build configuration list for PBXNativeTarget "IBoxpayBTDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04BDFD0117C6F31800D28785 /* Debug */,
+				04BDFD0217C6F31800D28785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04BDFCD517C6F31800D28785 /* Project object */;
+}
